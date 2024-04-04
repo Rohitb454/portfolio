@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <div class="page-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <div class="bg-circles">
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <div class="circle-3"></div>
+        <div class="circle-4"></div>
+    </div>
+
+    <div class="overlay">
+    </div>
+
+    <div class="main hidden">
+
+        <header class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <button type="button" class="nav-toggler">
+                        <span></span>
+                    </button>
+                    <nav class="nav">
+                        <div class="nav-inner">
+                            <ul>
+                                <li><a href="#home" class="nav-item link-item">Home</a></li>
+                                <li><a href="#about" class="nav-item link-item">About</a></li>
+                                <li><a href="#portfolio" class="nav-item link-item">Portfolio</a></li>
+                                <li><a href="#contact" class="nav-item link-item">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <section class="home-section align-items-center" id="home">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="home-text">
+                        <p>Hello I'm</p>
+                        <h1>Rohit Byri</h1>
+                        <h2>Full Stack Developer</h2>
+                        <a href="#about" class="btn link-item">more about me</a>
+                        <a href="#portfolio" class="btn link-item">portfolio</a>
+                    </div>
+                    <div class="home-img">
+                        <div class="img-box">
+                            <img src="images/profile.png" alt="profilepic">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section sec-padding" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>about me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-img">
+                        <div class="img-box">
+                            <img src="images/rohit.png" alt="Rohit">
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        <h3>Skills</h3>
+                        <div class="skills">
+                            <div class="skill-item">C</div>
+                            <div class="skill-item">java</div>
+                            <div class="skill-item">html</div>
+                            <div class="skill-item">css</div>
+                            <div class="skill-item">js</div>
+                            <div class="skill-item">php</div>
+                        </div>
+                        <div class="about-tabs">
+                            <button type="button" class="tab-item active" data-target="#education">education</button>
+                            <button type="button" class="tab-item" data-target="#experience">experience</button>
+                        </div>
+                        <div class="tab-content active" id="education">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2021-2025</span>
+                                    <h4>Bachelor of Technology - <span>SRKREC</span></h4>
+                                    <!-- <p>Computer Science and Design</p> -->
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2019-2021</span>
+                                    <h4>Intermediate - <span>Sri Chaitanya Boys Jr College </span></h4>
+                                    <!-- <p>Computer Science and Design</p> -->
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2019</span>
+                                    <h4>X Class - <span>Vijnana Vihara Residential School</span></h4>
+                                    <!-- <p>Computer Science and Design</p> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content" id="experience">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">Feb 2022 - Dec 2023</span>
+                                    <h4>BHIMAVARAM.ONLINE (SRKREC STARTUP) - <span>Intern as Web
+                                        Manager and Front-End Developer (using Postman API)</span></h4>
+                                    <p> • Initiated as a Web Managerresponsible for overseeing website operations and
+                                        transforming the website UI/UX using Open-cart. <br>
+                                        • Successfully contributed to the transition of the startup to ONDC, a
+                                        re-branded version. <br>
+                                        • Moved into a key role that focused on using the newly developed API to
+                                        improve functionality. <br>
+                                        • Collaborated closely with the development team to integrate the API,resulting
+                                        in improved user experience and expanded capabilities.
+                                    </p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">Aug 2023 - Feb 2024</span>
+                                    <h4>CONSTRUCTN - <span>Intern </span></h4>
+                                    <p> • Currently interning at Constructn.ai, an AI-based startup pioneering
+                                        groundbreaking advancements in the construction industry. <br>
+                                        • My primary responsibility involves meticulously annotating interior and
+                                        exterior objects, including walls, doors, frames, and more, to establish a
+                                        comprehensive data set. <br>
+                                        • This data set plays a pivotalrole in augmenting the AI’s capabilities for object
+                                        understanding,recognition, and analysis.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="ROHIT.pdf" target="_blank" class="btn">download cv</a>
+                        <a href="#contact" class="btn link-item">contact me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-section sec-padding" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Recent Work</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="images/project1.png" alt="IICRS 2024">
+                        </div>
+                        <h3 class="portfolio-item-title">IICRS 2024</h3>
+                        <button type="button" class="btn view-project-btn">View Project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quo, repellat natus minus necessitatibus doloribus alias quae nostrum veniam iure recusandae rerum accusamus consequuntur explicabo ipsam ea minima. Tempore, doloremque.</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>15 Jan 2024</span></li>
+                                    <li>Technologies used - <span>Html, Css, Js, Php</span></li>
+                                    <li>Role - <span>Full Stack</span></li>
+                                    <li>View Online - <span><a href="https://iicrs2024-uohyd.in/" target="_blank">IICRS 2024</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="images/project2.png" alt="Swahasth">
+                        </div>
+                        <h3 class="portfolio-item-title">Swahasth</h3>
+                        <button type="button" class="btn view-project-btn">View Project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quo, repellat natus minus necessitatibus doloribus alias quae nostrum veniam iure recusandae rerum accusamus consequuntur explicabo ipsam ea minima. Tempore, doloremque.</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>15 Feb 2024</span></li>
+                                    <li>Technologies used - <span>Html, Css, Js, Php</span></li>
+                                    <li>Role - <span>Full Stack</span></li>
+                                    <li>View Online - <span><a href="http://serixxo.com" target="_blank">Swahasth</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section sec-padding" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Contact Me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-form">
+                        <form action="">
+                            <div class="row">
+                                <div class="input-group">
+                                    <input type="text" placeholder="Name" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="email" placeholder="Email" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Subject" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <textarea placeholder="Message" class="input-control" required></textarea>
+                                </div>
+                                <div class="submit-btn">
+                                    <button type="submit" class="btn">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <h3>Email</h3>
+                            <p>byrirohit@gmail.com</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Phone</h3>
+                            <p>+91 630* *** ***</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>follow me</h3>
+                            <div class="social-links">
+                                <a href="" target="_blank" class="fab fa-instagram"></a>
+                                <a href="" target="_blank" class="fab fa-linkedin"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <div class="portfolio-popup">
+        <div class="pp-inner">
+            <div class="pp-content">
+                <div class="pp-header">
+                    <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
+                    <div class="pp-thumbnail">
+                        <img src="images/project1.png" alt="IICRS 2024">
+                    </div>
+                    <h3></h3>
+                </div>
+                <div class="pp-body">
+                    <!-- <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quo, repellat natus minus necessitatibus doloribus alias quae nostrum veniam iure recusandae rerum accusamus consequuntur explicabo ipsam ea minima. Tempore, doloremque.</p>
+                    </div> -->
+                    <!-- <div class="general-info">
+                        <ul>
+                            <li>Created - <span>15 Jan 2024</span></li>
+                            <li>Technologies used - <span>Html, Css, Js, Php</span></li>
+                            <li>Role - <span>Full Stack</span></li>
+                            <li>View Online - <span><a href="https://iicrs2024-uohyd.in/" target="_blank">IICRS 2024</a></span></li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script src="index.js" ></script>
+</body>
+</html>
